@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+aside {
+    flex-basis: 20%;
+}
+
+main {
+    flex-basis: 75%;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product {
+    width: 18%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product button {
+    background-color: red; /* Đặt màu nền là đỏ */
+    color: white; /* Đặt màu chữ là trắng */
+    padding: 10px 20px; /* Tạo khoảng trắng xung quanh nút */
+    border: none; /* Xóa viền của nút */
+    border-radius: 5px; /* Làm tròn các góc của nút */
+    cursor: pointer; /* Biến con trỏ thành hình bàn tay khi di chuột qua nút */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
